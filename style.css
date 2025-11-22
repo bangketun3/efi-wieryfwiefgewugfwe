@@ -318,7 +318,7 @@ p {
 }
 .AboutUs-col img {
   width: 100%;
-  height: auto;
+  height: 180px;
   border-radius: 10px;
   object-fit: cover;
 }
@@ -543,4 +543,5 @@ p {
   .contact-col textarea {
     font-size: 14px;
   }
+
 }
