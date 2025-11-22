@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web PJBL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/LogoHantu.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1> Our Blog</h1>
+    </section>
+
+    <!--- Blog Page Content --->
+    <section class="blog-content">
+        <div class="blog-row">
+            <div class="blog-left">
+                <img src="image/yapper.jpg">
+                <h2> The Fascinating World of Owls: Nature's Nocturnal Hunters</h2>
+                <p> Owls are captivating creatures that have long fascinated humans with their mysterious nature and unique adaptations. As nocturnal hunters, owls possess a range of remarkable features that enable them to thrive in the darkness of night. From their exceptional vision and silent flight to their keen hearing and powerful talons, owls are perfectly equipped for their predatory lifestyle.</p>
+                <br>
+                <p> One of the most striking characteristics of owls is their exceptional vision. Owls have large, forward-facing eyes that provide them with binocular vision, allowing for precise depth perception. Their eyes are also adapted to low-light conditions, with a high number of rod cells that enhance their ability to see in the dark. This incredible eyesight enables owls to spot prey from great distances, even in near-total darkness.</p>
+                <br>
+                <p> In addition to their remarkable vision, owls are known for their silent flight. Their feathers are specially adapted to reduce noise during flight, allowing them to approach prey stealthily. The leading edges of their primary feathers have a comb-like structure that breaks up turbulence, while the soft fringes on the trailing edges further dampen sound. This silent flight gives owls a significant advantage when hunting, as they can swoop down on unsuspecting prey without being detected.</p>
+                <br>
+                <p> Owls also possess an extraordinary sense of hearing, which is crucial for locating.</p>
+
+                <div class="comment-box">
+                    <h3>Leave a Comment</h3>
+
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5" placeholder="Your comment">
+                        </textarea>
+                        <button type="submit" class="hero-brn red-btn">POST COMMENT</button>
+                    </form>
+                </div>
+            </div>
+            <div class="blog-right">
+                <h3>Post Categories</h3>
+                <div>
+                    <span>Owl Species</span>
+                    <span>15</span>
+                </div>
+                <div>
+                    <span>Owl Behaviour</span>
+                    <span>33</span>
+                </div>
+                <div>
+                    <span>Owl Breeding</span>
+                    <span>2</span>
+                </div>
+                <div>
+                    <span>Owl Physiology</span>
+                    <span>9</span>
+                </div>
+                <div>
+                    <span>Owl Mythology</span>
+                    <span>10</span>
+                </div>
+            </div>
+    </section>
+
+
+     <!--- Footer --->
+
+     <section class="footer">
+        <h4>About US</h4>
+        <p> NO.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i>By PJBL FIK Group 25</p>
+     </section>
+    <!-- JavaScript for Toggle Menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
